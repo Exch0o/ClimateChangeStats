@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<style>
+    h1 {text-align: center;}
+    p {text-align: center;}
+    div {text-align: center;} 
+    div[id="hi"] {
+        text-align: left;
+    }
+</style>
+
+
+    <meta charset="utf-8" />
+    <title>
+        ClimateStats
+    </title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/png" href="Resources\favicon.png" />
+</head>
+    <style>
+        img {
+            width: 1342.5px;
+            height: 665px;
+        }
+        img[id="pollution"]{
+            border-radius: 10px;
+        }
+        .parent {
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+
+        .image1 {
+            position: relative;
+            top: 305px;
+            left: 630px;
+            width: 0px;
+            height: 0px;
+            resize: both
+        }
+
+        .image2 {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background-color: #141414;
+        }
+
+        input[id="Latitude"] {
+            width: 20%;
+            padding: 1px;
+            font-size: 2rem;
+            background-color: #ff8177;
+            background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+            background-size: 20%;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-text-fill-color: transparent;
+        }
+        input[id="Longitude"] {
+            width: 20%;
+            padding: 1px;
+            font-size: 2rem;
+            background-color: #ff8177;
+            background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+            background-size: 100%;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-text-fill-color: transparent;
+        }
+
+        input[type=submit] {
+            width: 20%;
+            padding: 1px;
+            font-size: 3rem;
+            background-color: #ff8177;
+            background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+            background-size: 20%;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-text-fill-color: transparent;
+        }
+        form {
+            padding: 40px;
+        }
+        p[id="p1"]{
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo"><i class="fas fa-tree"></i> Climate Stats</a>
+            <div class="navbar__toggle" id="moblie-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="Index.html" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="Oceans.html" class="navbar__links"> Ocean </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="Land.html" class="navbar__links"> Land </a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="References.html"
+                       class="button">References</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div class="main">
+        <div class="sub__container">
+            <div class="main__content">
+                <h1>Ocean Page</h1>
+                <br /><br /><br /><br /><br />
+                <h2>Down below is a map of the Earth's oceans</h2>
+                <br /><br /><br /><br /><br />
+                <div class="parent" id="hi">
+                    <img class="image2" src="Resources\Ocean.png" />
+                    <img class="image1" src="Resources\Highlight.png" id="highlight" />
+                </div>
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                <form id="myForm">
+                    <h1>Latitude:</h1>
+                    <input type="text" id="Latitude" value="" />
+                    <h2>Longitude:</h2>
+                    <input type="text" id="Longitude" value="" />
+                    <br /><br /><br /><br /><br /><br />
+                    <input type="submit" value="Submit" />
+                </form>
+                <p id="p1">
+                    <b>
+                        <i>
+
+                        </i>
+                    </b>
+                </p>
+                <hr /><hr /><hr /><br /><br /><br /><br /><br /><br />
+                <h1>
+                    Ocean Pollution
+                </h1>
+                <br /><br /><br />
+                <p>
+                    Ocean Pollution is a global endangerment to humans, animals, and sea creatures, which gets worse and worse everyday. Over 80% of Ocean Pollution comes from land-based sources such as toxic metals, plastic, chemicals, industrial waste, pesticides, and fertilizers. It can reach the ocean through rivers, sewage systems, deposition by the atmosphere (where airborne pollutants hit the ocean by rain and snow), and direct dumping into the ocean. Most of its Pollutions sit near the coastlines of low to middle income countries.
+                    The most hazardous pollution to the ocean is plastic waste. It’s the most visible component of ocean pollution and the amount of plastic that enters the ocean every year make up to ten million tonnes, which is very dangerous and toxic for the ocean and sea creatures.
+                </p>
+                <br />
+                <img src="Resources\Pollution.jpg" id="pollution" />
+                <br /><br /><br />
+                <h1><font size="7">Why should we care about Ocean Pollution so much?</font></h1>
+                <h1><font size="6">Here are some key points on why you should care about Ocean Pollution.</font></h1>
+                <p><font size="5">-	Half of the world’s oxygen is produced by the ocean and absorbs 50x more carbon dioxide than our atmosphere.<br />
+                -	The ocean gives us ingredients for food and seafood.<br />
+                -	A lot of medicine products comes from the ocean, including ingredients to fight cancer, arthritis, Alzheimer’s disease, and heart disease.<br />
+                -	The ocean gives us a lot of unique activities such as swimming, kayaking, and transportation.<br />
+                -	The ocean regulates our climate and weather pattern from transporting heat from the equator to the poles.<br />
+                -	We need water to survive (preferably fresh water)!!!</font></p><br /><br /><hr /><br />
+                <h2><font size="7">What can you do to reduce plastic waste? </font></h2>
+                <h2><font size="6">Here are some key points on how you can reduce the endangerment of Ocean Pollution:</font></h2>
+                <p><font size="5">-Conserve water so less runoff and wastewater will not end up in the ocean.<br />
+                -	Choose nontoxic chemicals and dispose of toxic substances properly.<br />
+                -	Reduce vehicle pollution by using fuel efficient vehicles or ride a bike.<br />
+                -	Choose energy efficient products.<br />
+                -	Respect sea habitats.<br />
+                -	Follow the “catch and release” practices when fishing to keep more fishes alive.<br />
+                -	Volunteer to clean up beaches in your community or area.</font></p><br />
+            </div>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+
+
+    
+    <script>
+        const _form = document.getElementById("myForm");
+        var latitude = document.getElementById("Latitude");
+        var longitude = document.getElementById("Longitude");
+        _form.addEventListener("submit", EXECUTE);
+
+        function EXECUTE(behaviour) {
+            behaviour.preventDefault();
+            if (longitude.value > 180) {
+                document.getElementById("p1").innerHTML = "Invalid value input, please try again.  Error code 194: (Longitude bigger than 180 degrees)";
+                return;
+            }
+            else if (latitude.value > 90) {
+                document.getElementById("p1").innerHTML = "Invalid value input, please try again.  Error code 195: (Latitude bigger than 90 degrees)";
+                return;
+            }
+            getData();
+        }
+
+        const getData = () => {
+            const xhr = new XMLHttpRequest();
+            var first = "http://api.openweathermap.org/data/2.5/air_pollution/forecast?lat=";
+            var second = latitude.value;
+            var third = "&lon=";
+            var fourth = longitude.value;
+            var fifth = "&appid=bd9abd411d579065cc7c862c3418e128";
+            var URL = first + second + third + fourth + fifth;
+            console.log(URL);
+            xhr.open("GET", URL);
+            xhr.responseType = "json"
+            xhr.onload = () => {
+                const DATA = xhr.response;
+                console.log(DATA);
+                document.getElementById("p1").innerHTML = "Carbon Concentration Level = " + DATA.list[0].components.co;
+            }
+            xhr.send();
+            var t = latitude.value * -4;
+            var l = longitude.value * 3.65;
+            t += 307.5;
+            l += 603;
+            let highlight = document.querySelector(".image1");
+            highlight.style.width = 50 + "px";
+            highlight.style.height = 50 + "px";
+            highlight.style.top = t + "px";
+            highlight.style.left = l + "px";
+            console.log("HI");
+        }
+
+    </script>
+</body>
+
+
+</html>
